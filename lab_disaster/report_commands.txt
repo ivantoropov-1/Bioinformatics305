@@ -1,0 +1,58 @@
+    1  git clone https://github.com/Weakne55/Bioinformatics305.git
+    3  git clone https://github.com/Weakne55/Bioinformatics305.git
+    5  git remote remove origin
+    6  git remote add origin https://github.com/ivantoropov-1/Bioinformatics305.git
+   12  git add raw_data/
+   13  git commit -m "Cleanup temp files"
+   14  git push -u origin master
+   17  ssh -T git@github.com
+   18  git remote set-url origin git@github.com:ivantoropov-1/Bioinformatics305.git
+   19  git push -u origin master
+   20  git checkout -b investigation
+   28  git add infected_reads.txt
+   29  git commit -m "Add infected reads (TGCA pattern)"
+   30  git push origin investigation
+   31  git branch
+   32  git checkout investigation
+   36  git add mini_run.fastq
+   37  git commit -m "Add mini_run.fastq with first and last 50 lines"
+   38  git push origin investigation
+   42  git status
+   43  git restore experiment.log
+   44  git checkout -- experiment.log
+   46  echo "git restore experiment.log" > command.txt
+   47  echo "git checkout -- experiment.log" > command.txt
+   49  git branch
+   50  git checkout main
+   51  git checkout master
+   52  git add command.txt
+   53  git commit -m "Add command.txt with restore command"
+   54  git push origin master
+   62  git checkout master
+   63  git add sort.txt
+   64  git commit -m "Add sort.txt with user count"
+   65  git push origin master
+   66  git branch
+   67  git merge investigation
+   68  git push origin main
+   69  git push origin master
+   74  git checkout master
+   75  git add genes_fixed.csv
+   76  git commit -m "Add genes_fixed.csv (spaces to commas)"
+   77  git push origin master
+   78  git checkout -b cleaning
+   82  git add diskusage.file
+   83  git commit -m "Add diskusage.file with files >1k and .fastq sizes"
+   84  git push origin cleaning
+   86  git add test.txt
+   87  git commit -m "Add test file"
+   88  git log --oneline
+   89  git log --oneline | head -1 | cut -c1-4 > hash.txt
+   92  git add forgotten.txt
+   93  git commit --amend --no-edit
+   94  git log --oneline
+   97  git checkout master
+   98  git add amend.txt
+   99  git commit -m "Add amend.txt with explanation"
+  100  git push origin master
+  101  history | grep git > report_commands.txt
