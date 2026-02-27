@@ -1,0 +1,4 @@
+ 23:16:25 up  2:47,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+kafedra  pts/1    -                20:14    3:01m  0.04s  0.01s -bash
+uid=1000(kafedra) gid=1000(kafedra) groups=1000(kafedra),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),100(users),107(netdev)
