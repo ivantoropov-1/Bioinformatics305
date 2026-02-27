@@ -1,0 +1,4 @@
+Тестирование greeter.sh 
+Тест 1 - недостаточно аргументов -> Error: Not enough arguments provided
+Тест2 - Правильный вызов -> Welcome, Ivan Ivanov from group Bio305!
+Все ок
